@@ -1,4 +1,4 @@
-# RealidadAumentada con OpenGL 4.4 en C++
+# Realidad Aumentada con OpenGL 4.4 en C++
 
 Realidad Aumentada en C++ con OpenGL 4.4, se presente en un patron de anillos un modelo animado en formato MD5 anim y mesh y se interactua con este mediante otro patron, es decir se requiere dos camaras, en el presente se ha trabajado con una webcam Micronics USB2.0 y una Cámara -Web de una laptop Toshiba Sattelite....
 
