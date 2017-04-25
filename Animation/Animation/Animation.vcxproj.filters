@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Calibrate">
+      <UniqueIdentifier>{e2f1baf5-1114-46a8-8eb9-a6af8ab50303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calibrate\Include">
+      <UniqueIdentifier>{64d286de-e7e3-4037-8b17-15f2d44bc4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calibrate\Src">
+      <UniqueIdentifier>{49b06720-0f14-42e3-b7bc-b2686d3a45e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MLMATH\MLQUATERNION.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="HELPERS.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5ANIM.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5MODEL.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="TEXTURE.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraOGL.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderAnim.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="h_Matriz.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_loader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="CentersAndConvexFinder.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ContourFinder.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipseFinder.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="FramePattern.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OpencvCalibration.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternFinder.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternPoint.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternTracker.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PreProcessing.h">
+      <Filter>Calibrate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectOGL.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Display.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="MAIN.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5ANIM.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5MODEL.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SYSTEM.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="TEXTURE.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderAnim.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="h_Matriz.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_loader.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="CentersAndConvexFinder.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ContourFinder.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipseFinder.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="FramePattern.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternFinder.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternPoint.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternTracker.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="PreProcessing.cpp">
+      <Filter>Calibrate\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectOGL.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FragmentShader.glsl">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="VertexShader.glsl">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Shaders\basicshader.fs" />
+    <None Include="Shaders\basicshader.vs" />
+  </ItemGroup>
+</Project>
